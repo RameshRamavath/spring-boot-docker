@@ -17,6 +17,23 @@ Place holder for learning Boot and Docker
     
 6. Check if our REST URL working or not?
 
-    http://localhost:8085//rest/spring/welcome -- Should return below message
+    http://localhost:8085/spring/welcome -- Should return below message
     
     Welcome to Spring-boot learning Mr. Ramesh
+    
+    and
+    
+    http://localhost:8085/persondetails/get - Should return below details
+    
+    [
+{
+"age": 25,
+"name": "Ramesh",
+"company": "WU"
+},
+{
+"age": 26,
+"name": "Mahesh",
+"company": "CTS"
+}
+]
