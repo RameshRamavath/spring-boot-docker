@@ -1,4 +1,4 @@
-package com.ramesh.docker.springbootdocker.resource;
+package com.ramesh.docker.springbootdocker.welcome;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -23,10 +23,10 @@ A ResourceController will have two things
 @RestController
 
 
-public class ResourceController {
+public class WelcomeController {
 
 
-    @RequestMapping("/rest/spring/welcome")
+    @RequestMapping("/spring/welcome")
     @GetMapping
 
     public String Welcome(){
