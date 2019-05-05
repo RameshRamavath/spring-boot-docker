@@ -20,6 +20,20 @@ A ResourceController will have two things
 @ GetMapping - s a composed annotation that acts as a shortcut for @RequestMapping(method = RequestMethod.GET).
 
  */
+
+/*
+
+=== Spring MVC controller ====
+
+It is used for building web applications [java framework]
+
+A Spring MVC provides an elegant solution to use MVC in spring framework by the help of DispatcherServlet.
+Here, DispatcherServlet is a class that receives the incoming request and maps it to the right resource such as controllers, models, and views.
+
+
+---> its looks for request from User, maps the URL, method from User to our existing controller's within our application
+
+ */
 @RestController
 
 
